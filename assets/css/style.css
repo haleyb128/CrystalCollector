@@ -1,41 +1,81 @@
 body {
-	background-image: url("../images/seigaiha.png");
+    background-image: url("../images/deep-space.jpg");
+    background-size: 100%;
 	margin: 0px;
-	padding: 0px;
+    padding: 0px;
 }
 
 .jumbotron {
-	background-color: orange;
-	color: white;
+    /* background-color: rgb(53, 73, 78); */
+    background-color: transparent;
+    margin: 20px;
+    margin-bottom: 40px;
+    color: white;
+    font-family: 'Exo 2';
+    border-style: solid;
+	border-color: #ddd;
+    border-width: 4px;
+    border-radius: 15px 50px;
 }
 
 .target-number {
 	font-size: 30px;
-	background-color: #F8CF9C;
+	/* background-color: #4aaaa5; */
 	border-style: solid;
 	border-color: #ddd;
-	border-width: 4px;
+    border-width: 4px;
+    border-radius: 15px 50px;
+    color: white;
+    font-family: 'Exo 2';
+    padding-left: 40px;
+}
+
+.card {
+    color: white;
+    font-family: 'Exo 2';
+}
+
+.card-title {
+    font-family: 'Exo 2';
+    font-size: 30px;
 }
 
 .win-lose-counter {
-	background-color: #9CE7F8;
+	/* background-color: rgb(53, 73, 78); */
 	border-style: solid;
 	border-color: #ddd;
-	border-width: 4px;
+    border-width: 4px;
+    color: white;
+    font-family: 'Exo 2';
+    padding-left: 40px;
+    font-size: 20px;
+    border-radius: 15px 50px;
+    padding-top: 10px;
+
 }
 
 .crystal-images {
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
 }
 
 .total-score {
 	color: white;
-	background-color: #4aaaa5;
+    /* background-color: #4aaaa5; */
+    border-style: solid;
+	border-color: #ddd;
+    border-width: 4px;
+    font-family: 'Exo 2';
+    font-size: 20px;
+    border-radius: 15px 50px;
+    padding-left: 40px;
 }
 
 .score-number {
 	color: white;
-	background-color: #4aaaa5;
-	font-size: 30px;
+	/* background-color: #4aaaa5; */
+    font-size: 30px;
+    font-family: 'Exo 2';
+    padding-left: 40px;
 }

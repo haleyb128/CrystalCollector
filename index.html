@@ -6,41 +6,22 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2|Monoton" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 	
-<div class="jumbotron">
-    <h1 class="text-center">Crystal Collector Game</h1>
+<div class="jumbotron jumbotron-fluid">
+    <h1 class="text-center">Crystal Collector</h1>
 </div>
 
 <div class="container">
 	<div class="row">
-		<div class="col-md-5">
-			<div class="panel panel-default">
-				<div class="panel-heading">
-	            	<h3 class="panel-title">How to Play!</h3>
-	          	</div>
-	          	<div class="panel-body">
-					<p>
-						A random number will appear: the goal is to match this number without exceeding it.
-					</p>
-					<p>
-						There are four crystals (as you can see, duh). When you click a crystal, a specific amount of points will be added to your score.
-					</p>
-					<p>
-						If you match the number, you win! If you pass it, you lose because our doge overlords have declared it so.
-					</p>
-					<p>
-						The value of each crystal is hidden from you until you click on it. Don't mess this up, okay? It's not that hard.
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-1">
-		</div>
-		<div class="col-md-6">
+		
+		
+		<div class="col-md-8">
 			<div class="row">
+                <div class="col-md-1"></div>
 				<div class="col-md-4 target-number">
 				</div>
 				<div class="col-md-1"></div>
@@ -48,27 +29,51 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-12 crystal-images">
-				</div>
+                <div class="col-md-2"></div>
+				<div class="col-md-8 crystal-images">
+                </div>
+                <div class="col-md-2"></div>
 			</div>
 			<div class="row">
-				<div class="col-md-4 total-score">
+                <div class="col-md-4"></div>
+				<div class="col-md-3 total-score">
 					<p>
 						Your points:
-					</p>
-				</div>
+                    </p>
+                    <div class="score-number">
+                    </div>
+                </div>
+                <!-- <div class="col-md-4"></div> -->
+                
+				
 			</div>
-			<div class="row">
-				<div class="col-md-4 score-number">
-				</div>
-			</div>
-		</div>
+        </div>
+        <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Instructions</h3>
+                      </div>
+                      <div class="card-body">
+                        <p>
+                            A random number will appear: the goal is to match this number without exceeding it.
+                        </p>
+                        <p>
+                            There are four crystals (as you can see, duh). When you click a crystal, a specific amount of points will be added to your score.
+                        </p>
+                        <p>
+                            If you match the number, you win! If you pass it, you lose because our alien overlords have declared it so.
+                        </p>
+                        <p>
+                            The value of each crystal is hidden from you until you click on it. Don't mess this up, okay? It's not that hard.
+                        </p>
+                    </div>
+                </div>
+        </div>
+        <div class="col-md-1">
+            </div>
 	</div>
 </div>
 	
-
-
-	<!-- Added link to Javascript-->
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 </html>

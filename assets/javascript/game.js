@@ -1,4 +1,4 @@
-// Institute Variables
+
 
 var targetNumber = "";
 var wins = 0;
@@ -39,7 +39,7 @@ var images = ["./assets/images/blueCrystal1.png", "./assets/images/yellowCrystal
 
 // Running Code
 
-	// Inital Page Set Up
+	// Inital
 	randomTargetNumber();
 	resetHTML ();
 	resetCrystals ();
@@ -59,5 +59,4 @@ var images = ["./assets/images/blueCrystal1.png", "./assets/images/yellowCrystal
 		};
 	};
 
-	//Throughout life cycle of the document, accounting for every single time document is dynamically changed execute crystalClick function
 	$(document).on("click", ".crystal", crystalClick);
